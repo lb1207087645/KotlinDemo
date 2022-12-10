@@ -29,7 +29,10 @@ class FirstFragment : Fragment() {
 //        }
 
         view.findViewById<Button>(R.id.firstButton).setOnClickListener {
-            this.findNavController().navigate(R.id.action_firstFragment_to_secondFragment2)
+            val bundle = Bundle()
+            bundle.putString("userId", "1")
+            val navController = it.findNavController()
+            navController.navigate(R.id.action_firstFragment_to_secondFragment2, bundle)
         }
     }
 }

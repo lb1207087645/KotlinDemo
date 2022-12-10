@@ -3,18 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment">
-    <Button
-        android:id="@+id/firstButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="点击跳转到第三个fragment" />
+    tools:context=".HomeFragment">
 
     <TextView
-        android:id="@+id/textview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="hello second_fragment" />
+        android:text="Home" />
+
 </FrameLayout>
